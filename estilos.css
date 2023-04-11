@@ -1,0 +1,90 @@
+#baner{
+    display: block;
+    background-color:#0D1170;
+    color: #FAFF04;
+    padding-top: 5px;
+    padding-bottom: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: xx-large;
+
+}
+
+#pie{
+    display: block;
+    background-color:#0D1170;
+    color: #FAFF04;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+#cuerpo{
+    display: block;
+    width: 80%;
+    height: 100vh; /* suponiendo que quieres centrar respecto a todo el alto de la pantalla */
+    padding-left: 10%;
+    padding-right: 10%;
+    
+  
+}
+
+#navegacion li{
+    display: inline-block;
+}
+
+#navegacion a{
+    display: block;
+    float: left;
+    margin-right: 0.12em;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    text-transform:uppercase;
+    font-size: 0.90em;
+
+}
+#seccion{
+    width: 80%;
+    height: 50%;
+    padding: 20px 40px;
+}
+
+#articulo1{
+    margin: -5px 20px 0px 0px;
+    float: right;
+    width: 65%;
+    text-align: justify;
+
+}
+
+#imagen1{
+    margin-top: 2em;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+}
+
+#imagen2{
+width: 20px;
+height: 20px;
+float: right;
+/*background-color: #1DA1F2;*/
+margin-right: 5px;
+}
+
+#imagen3{
+width: 20px;
+height: 20px;
+float: right;
+/*background-color: #1877F2;*/
+margin-right: 5px;
+}
+
+#imagen4{
+width: 20px;
+height: 20px;
+float: right;
+margin-right: 5px;
+}
