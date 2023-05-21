@@ -7,6 +7,7 @@
     padding-right: 10px;
     padding-left: 10px;
     font-size: xx-large;
+    text-align: center;
 
 }
 
@@ -45,21 +46,25 @@
     font-size: 0.90em;
 
 }
-#seccion{
-    width:80%;
-    height: 50%;
+.articulo1{
+    display: block;
+    width:90%;
     padding: 20px 40px;
 }
 
-#articulo1{
-    margin: -5px 20px 0px 0px;
-    float: right;
-    width: 65%;
-    text-align: justify;
+.seccion{
+    display:inline-block;
+    margin: 25px;
+    width: 60%;
+    
 
 }
 
-#imagen1{
+.seccion1{
+    display: block;
+}
+
+.imagen1{
     margin-top: 2em;
     width: 300px;
     height: 300px;
@@ -87,4 +92,19 @@ width: 20px;
 height: 20px;
 float: right;
 margin-right: 5px;
+}
+
+.tabla{
+    display: block;
+    border: darkblue 3px ;
+    }
+.columna{
+    column-span: 2;
+}
+
+.video{
+
+    width: 560px;
+    height: 315px;
+    border: 0px;
 }
