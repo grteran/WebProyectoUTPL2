@@ -3,7 +3,7 @@
     background-color:#0D1170;
     color: #FAFF04;
     padding-top: 5px;
-    padding-bottom: 1px;
+    padding-bottom: 1px;    
     padding-right: 10px;
     padding-left: 10px;
     font-size: xx-large;
@@ -71,6 +71,11 @@
     text-align: center;
 }
 
+.logo{
+    display: inline-block;
+    width: 250px;
+    height: 100px;
+}
 #imagen2{
 width: 20px;
 height: 20px;
