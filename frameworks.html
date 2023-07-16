@@ -6,6 +6,8 @@
     <title>Frameworks de desarrollo</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='estilos.css'>
+    <link rel="stylesheet" href="bootstrap-5.3.0-dist/js/bootstrap.min.js">
+    <link rel="stylesheet" href="bootstrap-5.3.0-dist/css/bootstrap.min.css">
     <script src='main.js'></script>
 </head>
 <body id="cuerpo">
@@ -14,13 +16,13 @@
     </header>
 
     <nav id="navegacion">
-    <ul>
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="frameworks.html">Frameworks</a></li>        
-        <li><a href="videos.html">Videos</a></li>
-        <li><a href="registro.html">Registro</a></li>
-        <li><a href="contactenos.html">Contactanos</a></li>
-        <li><a href="quienes.html">Quienes Somos</a></li>
+    <ul class="nav nav-pills">
+        <li class="nav-item"><a class="nav-item" href="index.html">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link active" aria-current="page" href="frameworks.html">Frameworks</a></li>        
+        <li class="nav-item"><a class="nav-item" href="videos.html">Videos</a></li>
+        <li class="nav-item"><a class="nav-item" href="registro.html">Registro</a></li>
+        <li class="nav-item"><a class="nav-item" href="contactenos.html">Contactanos</a></li>
+        <li class="nav-item"><a class="nav-item" href="quienes.html">Quienes Somos</a></li>
     </ul>
     </nav>
    
@@ -39,11 +41,11 @@
 
         <section class="seccion1"> 
                 <h2>Rubby and Rails</h2>
-                <table class="tabla">
-                    <thead>
+                <table class="table">
+                    <thead class="table-dark">
                         <tr>
                            <th><a href="https://rubyonrails.org/" target="_blank">RUBY ON RAILS</a></th>
-                           <th><img src="imagenes/rails.png" alt="imagenrails1"></th>
+                           <th><img src="imagenes/rails.png" alt="imagenrails1" class="img-fluid"></th>
                         </tr>
                     </thead>
 
@@ -103,11 +105,11 @@
 
             <section class="seccion1"> 
                 <h2>Laravel</h2>
-                <table class="tabla">
-                    <thead>
+                <table class="table">
+                    <thead class="table-dark">
                         <tr>
                            <th><a href="https://laravel.com/" target="_blank">Laravel</a></th>
-                           <th><img src="imagenes/laravel.png" alt="imagenlaravel"></th>
+                           <th><img src="imagenes/laravel.png" alt="imagenlaravel" class="img-fluid"></th>
                         </tr>
                     </thead>
 
@@ -153,11 +155,11 @@
 
             <section class="seccion1"> 
                 <h2>Django</h2>
-                <table class="tabla">
-                    <thead>
+                <table class="table">
+                    <thead class="table-dark">
                         <tr>
                            <th><a href="https://www.djangoproject.com/" target="_blank">Django</a></th>
-                           <th><img src="imagenes/django.png" alt="imagendjango"></th>
+                           <th><img src="imagenes/django.png" alt="imagendjango" class="img-fluid"></th>
                         </tr>
                     </thead>
 
@@ -216,11 +218,11 @@
 
             <section class="seccion1"> 
                 <h2>Symfony</h2>
-                <table class="tabla">
-                    <thead>
+                <table class="table">
+                    <thead class="table-dark">
                         <tr>
                            <th><a href="https://symfony.com/" target="_blank">Symfony</a></th>
-                           <th><img src="imagenes/symfony.png" alt="imagensymfony"></th>
+                           <th><img src="imagenes/symfony.png" alt="imagensymfony" class="img-fluid"></th>
                         </tr>
                     </thead>
 
@@ -283,11 +285,11 @@
     
             <section class="seccion1"> 
                     <h2>Bootstrap: El gigante de la industria</h2>
-                    <table class="tabla">
-                        <thead>
+                    <table class="table">
+                        <thead class="table-dark">
                             <tr>
                                <th><a href="https://getbootstrap.com/" target="_blank">Bootstrap</a></th>
-                               <th><img src="imagenes/bootstrap.jpeg" alt="imagenbootstrap"></th>
+                               <th><img src="imagenes/bootstrap.jpeg" alt="imagenbootstrap" class="img-fluid"></th>
                             </tr>
                         </thead>
     
@@ -324,11 +326,11 @@
        
                 <section class="seccion1"> 
                         <h2>React: la mejor opción JS</h2>
-                        <table class="tabla">
-                            <thead>
+                        <table class="table">
+                            <thead class="table-dark">
                                 <tr>
                                    <th><a href="https://es.react.dev/" target="_blank">React</a></th>
-                                   <th><img src="imagenes/react.jpeg" alt="imagenreact"></th>
+                                   <th><img src="imagenes/react.jpeg" alt="imagenreact" class="img-fluid"></th>
                                 </tr>
                             </thead>
         
@@ -386,11 +388,11 @@
             
                     <section class="seccion1"> 
                             <h2>Flutter</h2>
-                            <table class="tabla">
-                                <thead>
+                            <table class="table">
+                                <thead class="table-dark">
                                     <tr>
                                        <th><a href="https://flutter.dev/" target="_blank">Flutter</a></th>
-                                       <th><img src="imagenes/fluter.jpg" alt="imagenfluter"></th>
+                                       <th><img src="imagenes/fluter.jpg" alt="imagenfluter" class="img-fluid"></th>
                                     </tr>
                                 </thead>
             
@@ -435,11 +437,11 @@
                
                         <section class="seccion1"> 
                                 <h2>Xamarin</h2>
-                                <table class="tabla">
-                                    <thead>
+                                <table class="table">
+                                    <thead class="table-dark">
                                         <tr>
                                            <th><a href="https://dotnet.microsoft.com/es-es/apps/xamarin" target="_blank">Xamarin</a></th>
-                                           <th><img src="imagenes/xamarin.jpg" alt="imagenxamarin"></th>
+                                           <th><img src="imagenes/xamarin.jpg" alt="imagenxamarin" class="img-fluid"></th>
                                         </tr>
                                     </thead>
                 

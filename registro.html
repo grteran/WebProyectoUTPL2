@@ -6,6 +6,8 @@
     <title>Frameworks de desarrollo</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='estilos.css'>
+    <link rel="stylesheet" href="bootstrap-5.3.0-dist/js/bootstrap.min.js">
+    <link rel="stylesheet" href="bootstrap-5.3.0-dist/css/bootstrap.min.css">
     <script src='main.js'></script>
 </head>
 <body id="cuerpo">
@@ -14,15 +16,15 @@
     </header>
 
     <nav id="navegacion">
-    <ul>
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="frameworks.html">Frameworks</a></li>        
-        <li><a href="videos.html">Videos</a></li>
-        <li><a href="registro.html">Registro</a></li>
-        <li><a href="contactenos.html">Contactanos</a></li>
-        <li><a href="quienes.html">Quienes Somos</a></li>
-    </ul>
-    </nav>
+      <ul class="nav nav-pills">
+          <li class="nav-item"><a class="nav-item" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-item" href="frameworks.html">Frameworks</a></li>        
+          <li class="nav-item"><a class="nav-item" href="videos.html">Videos</a></li>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="registro.html">Registro</a></li>
+          <li class="nav-item"><a class="nav-item" href="contactenos.html">Contactanos</a></li>
+          <li class="nav-item"><a class="nav-item" href="quienes.html">Quienes Somos</a></li>
+      </ul>
+      </nav>
    
     
 
@@ -30,16 +32,16 @@
         <h2>Registrarse para cursos</h2>
 
         <section> 
-          <h2>Fortmulario de registro</h2>
+          <h2>Formulario de registro</h2>
             <form action="#" method="get" target="_blank">
 
                 <fieldset>
               
                   <legend>Información básica</legend>
+                  
+                  <div class="input-group"><span class="input-group-text">Nombre completo: <input type="text" name="nombrecompleto" aria-label="Nombre Completo" class="form-control"></span></div>
               
-                  <p><label>Nombre completo: <input type="text" name="nombrecompleto"></label></p>
-              
-                  <p><label>Fecha de nacimiento: <input type="date" name="fechadenacimiento"></label></p>
+                  <div class="input-group"><span class="input-group-text">Fecha de nacimiento: <input type="date" name="fechadenacimiento" aria-label="Fecha de Nacimiento" class="form-control"></span></div>
               
                   <p>Genero:
               
@@ -49,9 +51,11 @@
               
                   </p>
               
-                  <p><label>Dirección: <input type="text" name="direccion"></label></p>
+                  <div class="input-group"><span class="input-group-text">Dirección: <input type="text" name="direccion"
+                    aria-label="Direccion" class="form-control"></span></div>
               
-                  <p><label>Número telefónico: <input type="tel" name="telefono"></label></p>
+                  <div class="input-group"><span class="input-group-text">Número telefónico: <input type="tel" name="telefono"
+                    aria-label="Numero Telefonico" class="form-control"></span></div>
               
                 </fieldset>
               
@@ -69,7 +73,8 @@
               
                   </p>
               
-                  <p><label>Color favorito: <input type="color" name="colorfavorito"></label></p>
+                  <div class="input-group"><span class="input-group-text">Color favorito: <input type="color" name="colorfavorito"
+                    aria-label="Color Favorito" class="form-control"></span></div><br>
               
                 </fieldset>
               
